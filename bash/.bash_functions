@@ -1,10 +1,10 @@
+# Create a new directory and enter it
+function mkd() {
+	mkdir -p "$1" && cd "$1";
+}
+
+# cd to a directory and list all items in it.
 function cl() {
-    DIR="$*";
-        # if no DIR given, go home
-        if [ $# -lt 1 ]; then
-                DIR=".";
-    fi;
-    builtin cd "${DIR}" && \
-    # use your preferred ls command
-        ls -A --color=auto
+	cd "$1" && \
+		ls -A --color=auto
 }
