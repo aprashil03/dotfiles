@@ -11,3 +11,8 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+
+alias baliases="bat ~/.bash_aliases"
+alias bhistory="bat ~/.bash_history"
+alias bfunctions="bat ~/.bash_functions"
+alias bcleanhist="grep -E '^(sudo|git (commit|config))' ~/.bash_history"
