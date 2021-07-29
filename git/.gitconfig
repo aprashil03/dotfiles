@@ -1,0 +1,5 @@
+[user]
+	name = aprashil
+	email = 57047095+aprashil@users.noreply.github.com
+[credential]
+	helper = cache --timeout=3600
