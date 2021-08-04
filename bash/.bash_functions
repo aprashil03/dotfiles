@@ -8,3 +8,4 @@ function cl() {
 	cd "$1" && \
 		ls -A --color=auto
 }
+
