@@ -1,0 +1,2 @@
+full screenshot: flameshot full -p /home/aprashil/Pictures/screenshots -d 100
+area screenshot: flameshot gui -p /home/aprashil/Pictures/screenshots -d 100
